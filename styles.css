@@ -13,7 +13,7 @@ body {
 main {
 	display: flex;
 	justify-content: center;
-	
+
 }
 
 .clock {
@@ -49,5 +49,9 @@ main {
      transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     }
 
+.hour-hand {
+	width: 30%;
+	transform-origin: 133% -19px;
+}
 
 
